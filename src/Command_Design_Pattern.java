@@ -10,6 +10,7 @@ public class Command_Design_Pattern {
         buy_stocks buy_stock=new buy_stocks(st);
         sell_stocks sell_stock=new sell_stocks(st);
 
+        //Invoker Object created
         stock_dealer st_dealer=new stock_dealer();
         st_dealer.place_order(buy_stock);
         st_dealer.place_order(sell_stock);
