@@ -7,8 +7,6 @@ public class Interpreter_design_Pattern {
         evaluate_pattern_interpreter eval=new evaluate_pattern_interpreter(new Interpreter());
         System.out.println(eval.interpret(str));
         System.out.println(eval.interpret(str1));
-
-
     }
 }
 
